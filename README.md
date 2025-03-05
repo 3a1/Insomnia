@@ -37,7 +37,7 @@
 - Preserves original `NtShutdownSystem` functionality to avoid suspicion.
 
 
-Full explanation on how it works u can find [here](https://3a1.github.io/insomnia-bootkit).
+Full explanation on how it works u can find [here](https://3a1.github.io/posts/insomnia-bootkit/).
 
 ## Usermode Usage
 ```asm
