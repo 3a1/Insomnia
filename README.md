@@ -1,7 +1,7 @@
 <p align="center">
     <img src=".github/insomnia.png" alt="Insomnia" width="360" />
     <h3 align="center">Insomnia</h3>
-    <p align="center">DXE Bootkit that infects the kernel via SSDT hooking</p>
+    <p align="center">Bootkit that infects the kernel via SSDT hooking</p>
 </p>
 
 ### General
