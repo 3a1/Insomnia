@@ -5,7 +5,7 @@
 </p>
 
 ### General
-- Uses UEFI DXE phase for infecting kernel
+- Uses UEFI TSL phase for infecting kernel
 - Bypasses Kernel Patch Guard (KPP) by hooking SSDT pre-initialization
 - Tiny binary only 3 KB in size
 
