@@ -6,16 +6,6 @@
 EXTERN_C
 {
 	#include <Uefi.h>
-	#include <Library/UefiLib.h>
-	#include <Library/DebugLib.h>
-	#include <Library/MemoryAllocationLib.h>
-
-	#include <Library/UefiBootServicesTableLib.h>
-	#include <Library/UefiRuntimeServicesTableLib.h>
-
-	#include <Uefi/UefiBaseType.h>
-	#include <Protocol/LoadedImage.h>
-	#include <Library/PrintLib.h>
 
 	uint64_t __readgsqword(uint64_t);
 	#pragma intrinsic(__readgsqword)
