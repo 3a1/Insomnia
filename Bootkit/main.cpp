@@ -28,9 +28,6 @@ EXTERN_C EFI_STATUS EFIAPI UefiMain(IN EFI_HANDLE ImageHandle, IN EFI_SYSTEM_TAB
         /* swap execution to new image */
         swap_execution((uint32_t)new_location);
 
-        /* remove the old image */
-        memory::zero((uint8_t*)global::ImageBase, global::ImageSize);
-
         /* update new image base */
         global::ImageBase = new_location;
 

@@ -17,7 +17,7 @@ EXTERN_C
 
 	uint64_t _AddressOfReturnAddress();
 	#pragma intrinsic(_AddressOfReturnAddress)
-	#define __get_rsp() _AddressOfReturnAddress()
+	#define __get_rax_ptr() _AddressOfReturnAddress()
 }
 
 #include "general.h"

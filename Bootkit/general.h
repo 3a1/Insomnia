@@ -9,6 +9,9 @@ namespace global
         inline EFI_RUNTIME_SERVICES*   RuntimeServices;
         inline EFI_BOOT_SERVICES*      BootServices;
 
+        inline uint32_t                ImageBase;
+        inline uint32_t                ImageSize;
+
         inline EFI_EXIT_BOOT_SERVICES  ExitBootServices;
 
         inline uint64_t                winload;
