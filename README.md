@@ -7,7 +7,7 @@
 ### General
 - Uses UEFI TSL phase for infecting kernel
 - Image is Boot Service Driver so will be automatically unloaded before boot
-- Bypasses Kernel Patch Guard (KPP) by hooking SSDT pre-initialization
+- Bypasses PatchGuard by hooking SSDT pre-initialization
 - Tiny binary only 3 KB in size
 
 ## Features
